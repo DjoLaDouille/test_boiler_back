@@ -9,7 +9,7 @@ class Users::SessionsController < Devise::SessionsController
   def respond_to_on_destroy
     render json: { message: "Logged out." }
   end
-end
+
   # before_action :configure_sign_in_params, only: [:create]
 
   # GET /resource/sign_in
