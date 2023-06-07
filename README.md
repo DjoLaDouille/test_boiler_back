@@ -6,7 +6,7 @@ application up and running.
 Run
 `bundle exec rake secret`
 
-Create .env & add:
+Create `.env` at the root & add:
 
 `DEVISE_JWT_SECRET_KEY=[your key value]`
 
